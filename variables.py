@@ -93,4 +93,31 @@ print(a, b)
 
 # à vous de jouer
 
+# transtypage
 
+foo = "123"
+foo = int(foo)
+print(type(foo))
+
+foo = "123"
+foo = float(foo)
+print(type(foo))
+
+# supprime les chiffres derrière la virgule.
+
+foo = 3.14
+foo = int(foo)
+print(type(foo))
+print(foo)
+
+foo = 3.14
+foo = str(foo)
+print(type(foo))
+#
+foo = 2.71
+# récupérer la partie entière
+a = int(foo)
+print(a)
+# récupérer la partie après virgule
+b = foo - a
+print(b)
