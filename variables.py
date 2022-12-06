@@ -121,3 +121,36 @@ print(a)
 # récupérer la partie après virgule
 b = foo - a
 print(b)
+
+# transtypage == tyoe casting == conversion d'un type de données
+
+my_number7 = 10
+print(bool(my_number7))
+if bool(my_number7):
+    print("L'utilisateur a mis autre chose que 0")
+else :
+    print("L'utilisateur a mis 0")
+
+my_text7 = "salut"
+if bool(my_text7):
+    print("L'utilisateur a mis du texte")
+else :
+    print("L'utilisateur n'a mis aucun texte")
+
+# listes 
+
+fruits = ['ananas' , 'bananes' , 'cerise']
+result = 'ananas' in fruits
+print(result)
+result = 'fraise' in fruits
+print(result)
+
+# conversion explicite
+result = bool(fruits)
+print(result)
+
+# implicite 
+if fruits:
+    print("La liste contient des éléments")
+else :
+    print("La liste ne contient pas d'éléments")
