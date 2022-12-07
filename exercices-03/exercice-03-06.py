@@ -14,3 +14,7 @@ miles = 3
 
 # réponse 3.6
 
+meters = miles * 1609.344
+print(round(meters))
+km = meters / 1000
+print(round(km))

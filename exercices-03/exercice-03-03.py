@@ -13,3 +13,8 @@ friends = 3
 
 # réponse 3.3
 
+candies_per_person = candies / friends
+print(candies_per_person)
+
+chocolates_per__person = chocolates / friends
+print(int(chocolates_per__person))
