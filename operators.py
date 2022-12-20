@@ -105,3 +105,15 @@ result = not True
 print(result)
 result = not False
 print(result)
+
+fruits = ['abricot' , 'baie' , 'cerise']
+result = 'ananas' in fruits
+print(result)
+
+for counter in range(0, 10):
+    print(f'{counter = }')
+
+fruits = ['abricot' , 'baie' , 'cerise']
+
+for i, fruit in enumerate(fruits):
+    print(f'{i+1}: {fruit}')
