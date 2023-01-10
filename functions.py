@@ -1,6 +1,7 @@
 from collections.abc import Callable
 # import my_library                 # Pour importer la libraire en entière 
 from my_library import randint_list # Récupère juste la fonctionrandint_list dans la librairie 
+import random 
 
 def addition(a: float, b: float) -> float:
     """Cette fonctionpermet d'additionner deux nombres
@@ -35,3 +36,19 @@ print(my_list)
 
 my_list = randint_list(0, 10, 300)
 print(my_list)
+
+
+# écrire une fonction qui accepte en paramètre une liste et qui renvoie la moyenne des nombres de la liste
+
+def my_average(numbers: list) -> float:
+    my_sum = 0 
+
+    for number in numbers:
+        my_sum += number
+
+    result = my_sum / len(numbers)
+
+    return result
+
+print(result)
+
