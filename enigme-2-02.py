@@ -29,12 +29,13 @@ print(result)
 
 dividende = 10
 diviseur = 3
-reste = 100
+reste = dividende
+quotient = 0
 
 while reste >= diviseur:
     reste -= diviseur
-    
+    quotient += 1
 
-print(f'reste = {reste}')
+print(f'quotient = {quotient}' f' reste = {reste}')
 
 
